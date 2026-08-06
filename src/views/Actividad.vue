@@ -22,7 +22,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la comprensión de los conceptos relacionados con la ingeniería y gestión de requisitos, los fundamentos de redes y sistemas operativos, la computación en la nube, la virtualización, los contenedores y la gestión de la infraestructura tecnológica.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -30,477 +30,671 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal de la ingeniería de requisitos?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Diseñar la interfaz gráfica del sistema.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Identificar, analizar y documentar las necesidades que debe satisfacer una solución de <em>software</em>.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Configurar servidores virtuales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Administrar bases de datos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de los siguientes corresponde a un requisito no funcional?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Registrar usuarios.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Generar reportes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Consultar información.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Garantizar tiempos adecuados de respuesta del sistema.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué técnica permite obtener información directamente de los usuarios mediante preguntas estructuradas?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Observación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: 'Entrevista.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Prototipado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Priorización.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'La priorización de requisitos permite:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Determinar cuáles requisitos deben desarrollarse primero según su importancia.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Crear máquinas virtuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Instalar un sistema operativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Configurar protocolos de red.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto: 'La especificación de requisitos tiene como finalidad:',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Instalar aplicaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Configurar servidores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Describir de manera clara y verificable las necesidades del sistema.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar redes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto: '¿Qué ventaja ofrece la documentación de requisitos?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reduce el almacenamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Elimina las pruebas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituye la programación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Facilita la trazabilidad y el control de cambios.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Cuál es la función principal de un sistema operativo de red?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Crear aplicaciones móviles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Administrar recursos y servicios compartidos entre equipos conectados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Editar documentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar páginas <em>web</em>.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál de los siguientes corresponde a un componente físico de una red?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '<em>Switch</em>.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Dirección IP.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Protocolo HTTP.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'DNS.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto: '¿Qué característica distingue a la computación en la nube?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo funciona en redes locales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Requiere instalar todos los recursos físicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Permite acceder a recursos tecnológicos a través de Internet.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Solo puede utilizarse en grandes empresas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál modelo de servicio proporciona infraestructura virtualizada como servidores y almacenamiento?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'IaaS',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'PaaS',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'SaaS',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'FaaS',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 11,
+          texto: '¿Cuál es un modelo de despliegue de la nube?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Docker.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Kubernetes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Nube híbrida.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Hipervisor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 12,
+          texto: 'La virtualización permite:',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar la necesidad de sistemas operativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Ejecutar múltiples entornos virtuales sobre un mismo <em>hardware</em> físico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir Internet.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Crear únicamente aplicaciones <em>web</em>.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto: '¿Qué característica distingue a los contenedores?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Requieren un sistema operativo completo para cada instancia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo pueden ejecutarse en la nube pública.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Comparten el sistema operativo del anfitrión y son ligeros.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Funcionan únicamente con bases de datos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué elemento almacena todo lo necesario para crear un contenedor?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Hipervisor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Volumen.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Nodo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Imagen.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Cuál es una función de los servicios de red?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Facilitar la comunicación y el intercambio de recursos entre dispositivos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reemplazar el sistema operativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Crear documentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar bases de datos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué representa un acuerdo de nivel de servicio (SLA)?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un protocolo de Internet.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Una máquina virtual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un compromiso sobre la calidad y disponibilidad de un servicio.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Un sistema operativo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál protocolo se utiliza principalmente para acceder a páginas <em>web</em>?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'SMTP',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'HTTP/HTTPS',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'FTP',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'DHCP',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué actividad hace parte de la gestión operativa de la infraestructura?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Crear requisitos funcionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Elaborar diagramas UML.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Supervisar el funcionamiento de los recursos tecnológicos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar interfaces gráficas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto: 'El aprovisionamiento de servicios en la nube consiste en:',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reparar equipos físicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Configurar y habilitar los recursos tecnológicos requeridos por los usuarios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Desarrollar algoritmos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Crear bases de datos relacionales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué aspecto debe considerarse durante la contratación de servicios tecnológicos?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El color de la interfaz del proveedor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El número de oficinas del proveedor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La publicidad del servicio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La disponibilidad, seguridad y necesidades de la organización.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Ha demostrado comprender los fundamentos de la infraestructura tecnológica y los servicios en la nube, fortaleciendo las competencias para afrontar los retos de los entornos digitales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
